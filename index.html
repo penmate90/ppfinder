@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Past Paper Finder</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<h1><u>IGCSE Past Paper Finder</u></h1>
+<h2>Please enter the required details below:</h2>
+<table border="0"  cellspacing="0">
+    <tr>
+        <td><h3>Subject:</h3></td>
+        <td><input type="text" placeholder="First letter capital!" id="sub"></td>
+    </tr>
+    <tr>
+        <td><h3>Subject code:</h3></td>
+        <td><input type="text" id="sub_code"></td>
+    </tr>
+    <tr>
+        <td><h3>Year:</h3></td>
+        <td><input type="text" id="year"></td>
+    </tr>
+    <tr>
+        <td><h3>Season:</h3></td>
+        <td> <input type="text" placeholder="FM, MJ, or ON" id="sea"></td>
+    </tr>
+    <tr>
+        <td><h3>Paper number:</h3></td>
+        <td><input type="text" id="p_no"></td>
+    </tr>
+    <tr>
+        <td><h3> Varaint:</h3></td>
+        <td><input type="text" placeholder="1, 2, or 3; only 2 for FM" id="p_var"></td>
+    </tr>
+</table>
+<button id="button" onclick="paper()" style="width:150px; height:50px; font-size:16pt; text-align: center; background-color: rgb(235, 109, 151); border:0; margin-top:30px;">Go to paper!</button>
+<script src="main.js"></script>
+</body>
+</html>
