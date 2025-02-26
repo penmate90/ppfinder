@@ -28,8 +28,8 @@ function paper(){
         t1="-March/"
         t2="m"
     }
-
-    link=link+subject+"-"+scode+"/"+y1+t1+scode+"_"+t2+y2+"_qp_"+n+v+".pdf"
+    moq=document.getElementById("mq").value
+    link=link+subject+"-"+scode+"/"+y1+t1+scode+"_"+t2+y2+"_"+moq+"_"+n+v+".pdf"
     console.log(link);
     window.open(link);
     link="https://pastpapers.co/cie/IGCSE/"
