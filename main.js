@@ -6,9 +6,11 @@ no=document.getElementById("p_no");
 vari=document.getElementById("p_var");
 link="https://pastpapers.co/cie/IGCSE/"
 t=""
+s_and_c={"0610":"Biology","0625":"Physics","0620":"Chemistry","0500":"English-First-Language","0580":"Mathematics","0680":"Environmental-Management","0417":"Information-and-Communication-Technology",};
+
 function paper(){
-    subject=sub.value;
     scode=code.value;
+    subject=s_and_c[scode];    
     y1=years.value;
     n=no.value;
     v=vari.value;
